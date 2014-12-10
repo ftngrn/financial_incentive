@@ -3,6 +3,31 @@
 /* ==========================================================================
 	 Author's custom styles
 	 ========================================================================== */
+.jumbotron {
+	padding: 0 0 10px;
+}
+.opt {
+	height: 150px;
+	border: 1px solid #eee;
+	border-radius: 8px;
+}
+.opt:hover {
+	background-color: #fee;
+}
+.calc {
+	width: 400px;
+	margin: 20px auto;
+}
+.result {
+	margin: 10px auto;
+}
+.jumbotron.result {
+	padding: 0 0 50px;
+}
+.result h3 {
+	font-size: 36px;
+}
+
 .bs-callout {
 	padding: 20px;
 	margin: 20px 0;
