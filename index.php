@@ -50,11 +50,12 @@
 					<p>
 						<select type="text" name="ai" id="ai">
 							<option id="ai-default" value="">選択して下さい</option>
-							<option id="ai-270" value="0">270万円以下</option>
+							<option id="ai-0" value="0">生活保護を受けている</option>
+							<option id="ai-270" value="1">270万円以下</option>
 							<option id="ai-360" value="271">271〜360万円</option>
 							<option id="ai-680" value="361">361万円〜680万円</option>
 							<option id="ai-top" value="681">681万円以上</option>
-							<option id="ai-none" value="-1">未申告</option>
+							<option id="ai-none" value="-1">所得等未申告</option>
 						</select>
 					</p>
 				</div>

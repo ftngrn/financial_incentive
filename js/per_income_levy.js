@@ -34,7 +34,7 @@ var incentive = {
 	}
 };
 
-var ai_index = [0, 271, 361, 681, 999, -1];
+var ai_index = [0, 1, 271, 361, 681, -1];
 
 $(function(){
 	// Document is ready
